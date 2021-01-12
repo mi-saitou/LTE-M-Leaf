@@ -1,7 +1,7 @@
 # LTE-Mリーフ 利用ガイド
 本ページは KDDI社製 LTE-Mリーフのサポートページです
 
-初版 2020/12/23 (STM32 core with LPWA 1.9.1-alpha1対応)  
+初版 2020/1/12 (STM32 core with LPWA 1.9.1-RC0対応)  
 2版  2021/1/7 (STM32 core with LPWA 1.9.1-alpha2対応)  
 
 ## LTE-M Leaf Ver.3  
@@ -45,7 +45,7 @@
 #### ・環境設定にてボードマネージャURLに次の内容を設定します  
 
 ```
-https://github.com/kazunaka2020/stm32lpwa/raw/main/package_stm_index.json
+https://github.com/mi-saitou/LTE-M-Leaf/raw/main/package_stm_index.json
 ```
 
 #### ・ボードマネージャを起動
