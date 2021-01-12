@@ -2,7 +2,6 @@
 本ページは KDDI社製 LTE-Mリーフのサポートページです
 
 初版 2020/1/12 (STM32 core with LPWA 1.9.1-RC0対応)  
-2版  2021/1/7 (STM32 core with LPWA 1.9.1-alpha2対応)  
 
 ## LTE-M Leaf Ver.3  
 このボードはトリリオンノード規格に加えLTE-M,センサー,STM32マイコンを1枚の基板にした開発ボードです  
