@@ -10,7 +10,7 @@ LTE-Mリーフ用のケースデータです。
 - [spacer-1](https://www.tinkercad.com/things/2n8qK4QVpn7) を3Dプリントしたパーツ x 1
 - [spacer-2](https://www.tinkercad.com/things/9MBQidA0G1Q) を3Dプリントしたパーツ x 1
 - M2ネジ (top panelの厚みが2mmの場合、ネジ長は12mm) x 4
-- M2スペーサー x 4
+- M2ナット x 4
 
 ## top panel
 
