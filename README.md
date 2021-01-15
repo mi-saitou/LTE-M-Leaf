@@ -1,7 +1,7 @@
 # LTE-Mリーフ 利用ガイド
 本ページは KDDI社製 LTE-Mリーフのサポートページです
 
-初版 2021/1/12 (STM32 core with LPWA 1.9.1-RC0対応)  
+初版 2021/1/15 (STM32 core with LPWA 1.9.1-Relase1対応)  
 
 ## LTE-M Leaf Ver.3  
 このボードはトリリオンノード規格に加えLTE-M,センサー,STM32マイコンを1枚の基板にした開発ボードです  
@@ -182,6 +182,11 @@ LPWA HTTPライブりを使いHTTP(HTTPS)通信を行うサンプルコードで
 
 #### ・SleepDevice
 LPWAデバイスの省電力機能を利用するサンプルコードです  
+
+また各ライブラリの利用方法については次のリンクを参照ください  
+LPWAライブラリ: https://github.com/mi-saitou/LTE-M-Leaf/blob/main/lpwa.md  
+HTTPライブラリ: https://github.com/mi-saitou/LTE-M-Leaf/blob/main/httplib.md  
+TCP,UDPライブラリ:https://github.com/mi-saitou/LTE-M-Leaf/blob/main/tcpudp.md  
 
 ### シリアルポート
 leafコネクタおよびUSBシリアル、デバッグシリアルを利用することができます  
