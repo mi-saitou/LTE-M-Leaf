@@ -12,12 +12,12 @@
         {
           "name": "STM32 cores with LPWA",
           "architecture": "stm32",
-          "version": "1.9.1-alpha1",
+          "version": "1.9.1-RC0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/kazunaka2020/stm32lpwa/main/STM32-1.9.1a1.tar.bz2",
-          "archiveFileName": "STM32-1.9.1a1.tar.bz2",
-          "checksum": "SHA-256:3067676592657dd0271c78b91926f6f82a6c95607685fc1ae465e541c965e753",
-          "size": "33620101",
+          "url": "https://github.com/mi-saitou/LTE-M-Leaf/raw/main/STM32-1.9.1rc0.tar.bz2",
+          "archiveFileName": "STM32-1.9.1rc0.tar.bz2",
+          "checksum": "SHA-256:f6115091b344e28ddfef6ad185fe90ac42bf73f259c7ca6e4fb8a8d002b6b308",
+          "size": "33622939",
           "boards": [
             {"name": "KDDI LPWA leaf ver3"}
           ],
@@ -42,12 +42,12 @@
         {
           "name": "STM32 cores with LPWA",
           "architecture": "stm32",
-          "version": "1.9.1-RC0",
+          "version": "1.9.1-Release1",
           "category": "Contributed",
-          "url": "https://github.com/mi-saitou/LTE-M-Leaf/raw/main/STM32-1.9.1rc0.tar.bz2",
-          "archiveFileName": "STM32-1.9.1rc0.tar.bz2",
-          "checksum": "SHA-256:f6115091b344e28ddfef6ad185fe90ac42bf73f259c7ca6e4fb8a8d002b6b308",
-          "size": "33622939",
+          "url": "https://github.com/mi-saitou/LTE-M-Leaf/raw/main/STM32-1.9.1release1.tar.bz2",
+          "archiveFileName": "STM32-1.9.1release1.tar.bz2",
+          "checksum": "SHA-256:5909331eee916a3c265b3dc586a07d47d3c1194fd4b431575660c5f8da40103b",
+          "size": "33622879",
           "boards": [
             {"name": "KDDI LPWA leaf ver3"}
           ],
