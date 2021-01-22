@@ -184,3 +184,26 @@ client.setCert(root_ca);
 
 ```
 あとはHTTP動作と同様にGET,POSTなどのメソッドを利用可能です
+
+#### <参考> ブラウザを用いた証明書の取得方法について
+前項で紹介しましたHTTPS用の証明書(ROOT CA)についてお手元の環境で SSLコマンドが利用できない場合はブラウザ(firefox)でも取得することができます。
+
+Firefoxで対象のURLを開き鍵マークをクリックします  
+プルダウンしてきた画面の中で矢印の部分をクリック  
+![firefox_pem1](images/firefox_pem1.png "firefox_pem1")
+
+下の部分にある「詳細を表示」をクリック  
+![firefox_pem2](images/firefox_pem2.png "firefox_pem2")
+
+ページ情報画面がポップアップしますので「証明書を表示」ボタンをクリックします  
+![firefox_pem3](images/firefox_pem3.png "firefox_pem3")
+
+ブラウザ画面に証明書が表示されますので右側のタブ(ここではDST Root CA X3)を選びます  
+画面を下にスクロールするとダウンロードの項目にPEM(証明書)のリンクがありますのでクリックします  
+![firefox_pem4](images/firefox_pem4.png "firefox_pem4")
+
+ファイルのダウンロード画面が出たらメモ帳を選択してOKを押してください  
+![firefox_pem5](images/firefox_pem5.png "firefox_pem5")
+
+メモ帳にある内容を前項の説明と同じようにソースコードに張り付けてください  
+
