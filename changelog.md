@@ -11,5 +11,7 @@ TCP,UDP,HTTPライブラリにて接続先に長いURLを設定するとボー�
 #define SENS_6DOF_IRQ PE2 // 6axis sensor interrupt (active High)
 ```
 
+README.mdにコネクタCN704のピン配置を追加  
+
 ### STM32 core with LPWA 1.9.1-Relase1 (2021/1/15)
 初回リリース  

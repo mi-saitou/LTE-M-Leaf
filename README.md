@@ -109,8 +109,12 @@ ArduinoIDEで書き込みを行うと自動的にDFUが解除されスケッチ�
 
 ## コネクタピンアサイン
 ボード上にある各コネクタのピン配置は次の通りです  
+leafコネクタとヘッダコネクタCN704は同じ信号が出ています  
 ### leafコネクタ(TOP view)
 ![con_leaf](images/leaf_signal.png "con_leaf")
+
+### ヘッダコネクタCN704(TOP view)
+![con_header1](images/board_cn704.png "con_header1")
 
 ## ハードウェア機能
 Arduinoスケッチでハードウェア機能を使う方法は次の通りです  
