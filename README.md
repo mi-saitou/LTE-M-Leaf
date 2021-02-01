@@ -2,6 +2,14 @@
 本ページは KDDI社製 LTE-Mリーフのサポートページです
 
 初版 2021/1/15 (STM32 core with LPWA 1.9.1-Relase1対応)  
+２版 2021/2/1 (STM32 core with LPWA 1.9.1-Relase2対応)  
+
+-- 改訂履歴--  
+https://github.com/mi-saitou/LTE-M-Leaf/blob/main/changelog.md  
+
+-- 活用ガイド --  
+https://github.com/mi-saitou/LTE-M-Leaf/blob/main/usage.md  
+
 
 ## LTE-M Leaf Ver.3  
 このボードはトリリオンノード規格に加えLTE-M,センサー,STM32マイコンを1枚の基板にした開発ボードです  
@@ -366,6 +374,10 @@ void repetitionsIncrease() {
 ```
 ArduinoIDEの次の場所にサンプルスケッチがインストールされていますので参考にしてください  
 [スケッチ例]->[stp32lpwa]->[Leaf]->[sleep_resume]  
+
+<div style="text-align: right;">
+<B>COPYRIGHT© 2020,2021 KDDI CORPORATION, ALL RIGHTS RESERVED.</B>
+</div>
 
 
 
