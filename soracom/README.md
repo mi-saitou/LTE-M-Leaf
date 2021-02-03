@@ -11,7 +11,7 @@ LTE-Mリーフを使ってSORACOMクラウドにデータ転送、可視化を�
 
 
 ・SORACOM バイナリパーサーへ送信し、IFTTT経由でgoogleスプレッドシートに送信  
-  https://github.com/mi-saitou/LTE-M-Leaf/tree/main/soracom/BeamIFTTT 　
+　https://github.com/mi-saitou/LTE-M-Leaf/tree/main/soracom/beam  
 
 ## SORACOMクラウド設定
 
@@ -24,7 +24,7 @@ SIM管理用アカウントを使ってSORACOMクラウドにログインしま�
 
 https://console.soracom.io/
 
-![soracom_login](soracom_login.png "soracom_login")
+![soracom_login](images/soracom_login.png "soracom_login")
 
 管理用アカウントを受領していない場合はLTE-Mリーフ配布元にお問い合わせください
 
@@ -36,15 +36,15 @@ SORACOMクラウドにログイン後はSIM登録画面になっているはず�
 次に右側に並んでいるSIMのリストからお手元のSIM番号のチェックボタンをセットし  
 右クリック→所属グループ変更を選択します  
 
-![soracom1](soracom1.png "soracom1")
+![soracom1](images/soracom1.png "soracom1")
 
 SIMの所属グループ変更画面が出ますので新しい所属グループのところにある▼マークを押して  
 「新しいグループを作成...」を選択します  
-![soracom2](soracom2.png "soracom2")
+![soracom2](images/soracom2.png "soracom2")
 
 グループ作成画面が出たら任意の名前を入力し「グループ作成」ボタンを押します  
 ここでは「活用ガイド」という名前を入力する例を示します  
-![soracom3](soracom3.png "soracom3")
+![soracom3](images/soracom3.png "soracom3")
 
 SIMのグループ名が設定した名前になれば登録完了です  
 ![soracom4](soracom4.png "soracom4")
