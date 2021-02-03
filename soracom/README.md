@@ -11,7 +11,7 @@ LTE-Mリーフを使ってSORACOMクラウドにデータ転送、可視化を�
 
 
 ・SORACOM バイナリパーサーへ送信し、IFTTT経由でgoogleスプレッドシートに送信  
-　https://github.com/mi-saitou/LTE-M-Leaf/tree/main/soracom/beam  
+　https://github.com/mi-saitou/LTE-M-Leaf/tree/main/soracom/beamIFTTT  
 
 ## SORACOMクラウド設定
 
@@ -47,7 +47,7 @@ SIMの所属グループ変更画面が出ますので新しい所属グルー�
 ![soracom3](images/soracom3.png "soracom3")
 
 SIMのグループ名が設定した名前になれば登録完了です  
-![soracom4](soracom4.png "soracom4")
+![soracom4](images/soracom4.png "soracom4")
 
 <div style="text-align: right;">
 COPYRIGHT© 2020,2021 KDDI CORPORATION, ALL RIGHTS RESERVED.
