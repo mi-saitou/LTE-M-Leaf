@@ -44,15 +44,15 @@ SIM管理用アカウントを使ってSORACOMクラウドにログインしま�
 
 https://console.soracom.io/
 
-![soracom_login](soracom_login.png "soracom_login")
+![soracom_login](images/soracom_login.png "soracom_login")
 
 
 ### SIMグループの選択
 SIM登録画面にて登録したSIMグループ名リンクをクリックします  
-![soracomA1](soracomA1.png "soracomA1")
+![soracomA1](images/soracomA1.png "soracomA1")
 
 SIMグループの設定画面に移動します  
-![soracomA2](soracomA2.png "soracomA2")
+![soracomA2](images/soracomA2.png "soracomA2")
 
 ### バイナリパーサー,Harvest Dataの設定
 SIMグループの設定画面にて次の設定を行います  
@@ -70,7 +70,7 @@ temp:0:uint:16:/100
 #### Harvest Data
 機能を有効にするため設定をONにします  
 
-![soracomA3](soracomA3.png "soracomA1")
+![soracomA3](images/soracomA3.png "soracomA1")
 
 ## スケッチの実行とグラフ表示
 サンプルスケッチをLTE-Mリーフに書き込みます  
@@ -91,14 +91,14 @@ TCP send OK
 ```
 
 SIM管理画面からSIMのチェックを入れ右クリックで「データ確認」を選択します  
-![soracomA4](soracomA4.png "soracomA4")
+![soracomA4](images/soracomA4.png "soracomA4")
 
 グラフ選択画面が出ますので「検索」ボタンを押します  
-![soracomA5](soracomA5.png "soracomA5")
+![soracomA5](images/soracomA5.png "soracomA5")
 
 
 自動更新スイッチをオンにすると継続してグラフ表示が行われます    
-![soracomA6](soracomA6.png "soracomA6")
+![soracomA6](images/soracomA6.png "soracomA6")
 
 
 <div style="text-align: right;">

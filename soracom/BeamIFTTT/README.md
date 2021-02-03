@@ -42,63 +42,63 @@ IFTTT URL: https://ifttt.com
 今回はwebhookをトリガー(This)にGooggle Sheetをアクション(That)に設定します  
 
 home画面にて一番上にあるCreateをクリックします  
-![soracomB1](soracomB1.png "soracomB1")
+![soracomB1](images/soracomB1.png "soracomB1")
 
 トリガー選択を促す画面が出ますので[If This]ボタンを押します  
-![soracomB2](soracomB2.png "soracomB2")
+![soracomB2](images/soracomB2.png "soracomB2")
 
 トリガーのサービス検索画面が出ます  
 検索窓に"webhooks"と入力しますと[Webhooks]アイコンが出ますのでクリックで選択  
-![soracomB3](soracomB3.png "soracomB1")
+![soracomB3](images/soracomB3.png "soracomB1")
 
 トリガー要因の選択画面が出ますので"Receive a web request"を選択します  
-![soracomB4](soracomB4.png "soracomB1")
+![soracomB4](images/soracomB4.png "soracomB1")
 
 webhooksのイベント名入力画面が出ますのでEvent Name のところに任意の名称を入力します  
 ここでは"LeafToGoogle"と入力しました  
 この名称はSORACOMクラウドの設定で使いますのでメモしておいてください  
-![soracomB5](soracomB5.png "soracomB5")
+![soracomB5](images/soracomB5.png "soracomB5")
 
 次はアクション(That)です
 アクション選択を促す画面が出ますので[Then That]ボタンを押します  
-![soracomB6](soracomB6.png "soracomB6")
+![soracomB6](images/soracomB6.png "soracomB6")
 
 アクションのサービス検索画面が出ます  
 検索窓に"google"と入力しますと[Google Sheets]アイコンが出ますのでクリックで選択 
-![soracomB7](soracomB7.png "soracomB7")
+![soracomB7](images/soracomB7.png "soracomB7")
 
 google sheetのアクション設定選択が出ますので[add]もしくは[Update]を選択します  
 今回はシートに順次追記を行いますので[add]を選択しています  
-![soracomB8](soracomB8.png "soracomB8")
+![soracomB8](images/soracomB8.png "soracomB8")
 
 シートの名称、フォーマット、フォルダパスの設定画面となりますので好みで設定してください  
 ここではシート名"IFTTT_Leaf_Sensor"、フォルダパスは"IFTTT"としています  
-![soracomB9](soracomB9.png "soracomB9")
+![soracomB9](images/soracomB9.png "soracomB9")
 
 トリガーとアクションの入力が終わりましたので[Continue]ボタンを押します  
-![soracomB10](soracomB10.png "soracomB10")
+![soracomB10](images/soracomB10.png "soracomB10")
 
 設定内容の確認画面が出ますので[Finish]ボタンをおしてアプレット入力を完了させます  
-![soracomB11](soracomB11.png "soracomB11")
+![soracomB11](images/soracomB11.png "soracomB11")
 
 Webhooksの設定確認を行うためにWebhookのアイコンを押します  
-![soracomB12](soracomB12.png "soracomB12")
+![soracomB12](images/soracomB12.png "soracomB12")
 
 Webhooksの設定画面が出ますので[Documentation]ボタンを押します  
-![soracomB13](soracomB13.png "soracomB11")
+![soracomB13](images/soracomB13.png "soracomB11")
 
 webhooksのパラメータ画面が出ます  
 オレンジ色で囲まれた文字列はアプレットのアクセスキーになりますのでメモしておいてください  
 このアクセスキーはSORACOMクラウド設定にて使用します  
-![soracomB16](soracomB16.png "soracomB16")
+![soracomB16](images/soracomB16.png "soracomB16")
 
 この画面ではwebhooksのトリガーを発行し動作テストすることができます  
 オレンジ色で囲まれた部分を入力して[Test It]ボタンを押してください  
-![soracomB17](soracomB17.png "soracomB17")
+![soracomB17](images/soracomB17.png "soracomB17")
 
 [Test It]を押した後googleドライブを開きIFTTTフォルダ内にシートが作られていることを確認しましょう  
 次のようなデータが書き込まれたシートがあればIFTTTの設定は成功です  
-![soracomB18](soracomB18.png "soracomB18")
+![soracomB18](images/soracomB18.png "soracomB18")
 
 ## SORACOMクラウド設定
 本デモを実行する前に次の設定を行って下さい  
@@ -111,15 +111,15 @@ SIM管理用アカウントを使ってSORACOMクラウドにログインしま�
 
 https://console.soracom.io/
 
-![soracom_login](soracom_login.png "soracom_login")
+![soracom_login](images/soracom_login.png "soracom_login")
 
 
 ### SIMグループの選択
 SIM登録画面にて登録したSIMグループ名リンクをクリックします  
-![soracomA1](soracomA1.png "soracomA1")
+![soracomA1](images/soracomA1.png "soracomA1")
 
 SIMグループの設定画面に移動します  
-![soracomA2](soracomA2.png "soracomA2")
+![soracomA2](images/soracomA2.png "soracomA2")
 
 ### バイナリパーサー,Harvest Dataの設定
 SIMグループの設定画面にて次の設定を行います  
@@ -135,7 +135,7 @@ LTE-Mリーフから送信されるデータはバイナリ形式で次のよう
 value1:0:uint:16:/100 value2:2:uint:16:/10 value3:4:uint:16:
 ```
 
-![soracomB19](soracomB19.png "soracomB19")
+![soracomB19](images/soracomB19.png "soracomB19")
 
 #### beam設定
 IFTTTへデータを転送するための設定を行います  
@@ -146,7 +146,7 @@ LTE-MリーフからのデータはTCPデータで転送先はHTTPSになりま�
 ポート番号： 443  
 パス：/trigger/{Event Name}/with/key/{アクセスキー}  
 {Event Name},{アクセスキー}はIFTTTのwebhooks設定の際にメモした文字列を入れます  
-![soracomB20](soracomB20.png "soracomB20")
+![soracomB20](images/soracomB20.png "soracomB20")
 
 ## スケッチの実行とグラフ表示
 サンプルスケッチをLTE-Mリーフに書き込みます  
@@ -167,7 +167,7 @@ TCP send OK
 ```
 
 googleスプレッドシートを開くと温度、湿度、気圧の値が書き込まれていれば成功です  
-![soracomB21](soracomB21.png "soracomB21")
+![soracomB21](images/soracomB21.png "soracomB21")
 
 
 <div style="text-align: right;">
