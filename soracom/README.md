@@ -7,11 +7,11 @@ LTE-Mリーフを使ってSORACOMクラウドにデータ転送、可視化を�
 サンプルコードを実行する前には必ず次項の「SORACOMクラウド設定」を行ってください
 
 ・SORACOM バイナリパーサーへ送信し、harvestでグラフ表示  
-　https://github.com/mi-saitou/LTE-M-Leaf/blob/main/soracom/HarvestData  
+　https://github.com/mi-saitou/LTE-M-Leaf/tree/main/soracom/HarvestData  
 
 
 ・SORACOM バイナリパーサーへ送信し、IFTTT経由でgoogleスプレッドシートに送信  
-　https://github.com/mi-saitou/LTE-M-Leaf/blob/main/soracom/beamIFTTT  
+  https://github.com/mi-saitou/LTE-M-Leaf/tree/main/soracom/BeamIFTTT 　
 
 ## SORACOMクラウド設定
 
