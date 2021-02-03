@@ -380,7 +380,7 @@ ArduinoIDEの次の場所にサンプルスケッチがインストールされ�
 [スケッチ例]->[stp32lpwa]->[Leaf]->[sleep_resume]  
 
 <div style="text-align: right;">
-<B>COPYRIGHT© 2020,2021 KDDI CORPORATION, ALL RIGHTS RESERVED.</B>
+COPYRIGHT© 2020,2021 KDDI CORPORATION, ALL RIGHTS RESERVED.
 </div>
 
 
