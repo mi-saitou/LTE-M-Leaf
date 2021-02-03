@@ -2,4 +2,11 @@
 
 ## サンプルコード、設定ガイド  
 
-掲載準備中です  
+### SORACOMクラウド活用ガイド
+https://github.com/mi-saitou/LTE-M-Leaf/blob/main/soracom
+
+順次拡充していく予定です
+
+<div style="text-align: right;">
+COPYRIGHT© 2020,2021 KDDI CORPORATION, ALL RIGHTS RESERVED.
+</div>
