@@ -11,7 +11,7 @@ LTE-Mリーフを使ってSORACOMクラウドにデータ転送、可視化を�
 
 
 ・SORACOM バイナリパーサーへ送信し、IFTTT経由でgoogleスプレッドシートに送信  
-　https://github.com/mi-saitou/LTE-M-Leaf/blob/main/soracom/beam  
+　https://github.com/mi-saitou/LTE-M-Leaf/blob/main/soracom/beamIFTTT  
 
 ## SORACOMクラウド設定
 
