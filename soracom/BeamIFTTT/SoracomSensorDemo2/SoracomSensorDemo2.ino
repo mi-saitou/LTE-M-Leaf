@@ -11,7 +11,7 @@
  *  バイナリパーサー,beam のみ設定
  *　送信エンドポイント beam.soracom.io:23080
  *  バイナリパーサー設定、次の設定を設定画面に入力してください
- *  "value1:0:uint:16:/100 value2:2:uint:16:/10 value3:4:uint:16:"
+ *  value1:0:uint:16:/100 value2:2:uint:16:/10 value3:4:uint:16:
  *  
  *  beamを有効→IFTTTのwebhooksに転送
  */

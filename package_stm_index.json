@@ -98,6 +98,36 @@
               "version": "5.5.1"
             }
           ]
+        },
+        {
+          "name": "STM32 cores with LPWA",
+          "architecture": "stm32",
+          "version": "1.9.1-Release3",
+          "category": "Contributed",
+          "url": "https://github.com/mi-saitou/LTE-M-Leaf/raw/main/STM32-1.9.1release3.tar.bz2",
+          "archiveFileName": "STM32-1.9.1release3.tar.bz2",
+          "checksum": "SHA-256:db441aa5f6d8ad2bafc0cdf475b86d4c6c557abad7fd1f0bf06937b3fa6eb280",
+          "size": "33647691",
+          "boards": [
+            {"name": "KDDI LPWA leaf ver3"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "STM32",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "9.2.1-1.1"
+            },
+            {
+              "packager": "STM32",
+              "name": "STM32Tools",
+              "version": "1.4.0"
+            },
+            {
+              "packager": "STM32",
+              "name": "CMSIS",
+              "version": "5.5.1"
+            }
+          ]
         }
       ],
       "tools": [
