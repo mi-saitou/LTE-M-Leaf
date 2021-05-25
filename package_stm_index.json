@@ -106,8 +106,8 @@
           "category": "Contributed",
           "url": "https://github.com/mi-saitou/LTE-M-Leaf/raw/main/STM32-1.9.1release3.tar.bz2",
           "archiveFileName": "STM32-1.9.1release3.tar.bz2",
-          "checksum": "SHA-256:9aad167c61f92eb73c026bf9480872235aa67adf2389e5d6b66a3c82c59db477",
-          "size": "33646893",
+          "checksum": "SHA-256:43827c68412553780459d5c3d898020a838155658e261e5ec4e33b6fc0114200",
+          "size": "33648082",
           "boards": [
             {"name": "KDDI LPWA leaf ver3"}
           ],
