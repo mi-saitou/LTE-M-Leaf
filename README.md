@@ -3,6 +3,8 @@
 
 初版 2021/1/15 (STM32 core with LPWA 1.9.1-Relase1対応)  
 ２版 2021/2/1 (STM32 core with LPWA 1.9.1-Relase2対応)  
+３版 2021/7/1 (STM32 core with LPWA 1.9.1-Relase3対応)  
+４版 2021/10/19 (STM32 core with LPWA 1.9.1-Relase4対応)  
 
 -- 改訂履歴--  
 https://github.com/mi-saitou/LTE-M-Leaf/blob/main/changelog.md  
